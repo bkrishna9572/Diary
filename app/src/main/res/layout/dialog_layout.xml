@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:background="#fff">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/oldpass"
+        android:maxLength="4"
+        android:hint="@string/oldpasshint"
+        android:inputType="numberPassword"
+        android:ellipsize="start"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#777"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newpass"
+        android:maxLength="4"
+        android:layout_marginTop="15dp"
+        android:ellipsize="start"
+        android:hint="@string/newpasshint"
+        android:inputType="numberPassword"
+        android:textColorHint="#777"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/matchnew"
+        android:layout_marginTop="15dp"
+        android:maxLength="4"
+        android:ellipsize="start"
+        android:hint="@string/newpasshint"
+        android:inputType="numberPassword"
+        android:textColorHint="#777"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"/>
+</LinearLayout>
