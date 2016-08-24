@@ -136,7 +136,7 @@ public class PasswordFrag extends Fragment {
                             builder.add(cursor.getInt(cursor.getColumnIndex("pass")));
                         }
                         if(Integer.parseInt(editable.toString())==builder.get(0)){
-                            getActivity().getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.slide_in_left,R.anim.slie_out_right).replace(R.id.container, new Home()).add(R.id.container,new NewFragment()).commit();
+                            getActivity().getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.slide_in_left,R.anim.slie_out_right).replace(R.id.container, new Home()).commit();
                         }
                         else
                         {
